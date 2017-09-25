@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#user-input::-webkit-input-placeholder {
+  color: white;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#user-input:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#user-input::-moz-placeholder {  /* Firefox 19+ */
+  color: white;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#user-input:-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#container {
+  background-color: #eaeaea;
+  width: 30%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+#top-bar {
+  background-color: #2FCC99;
+  height: 80px;
+}
+#user-input {
+  width: 80%;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 25px;
+  background-color: #5CD5AF;
+  color: white;
+  border: 0px solid;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  outline: none;
+  margin-left: 10px;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+#add-button {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  outline: none;
+  background-color: white;
+  border: 0px solid;
+  color: #2FCC99;
+  font-size: 20px;
+  left: 5px;
+}
+.activity {
+  background-color: white;
+  width: 95%;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 25px;
+  position: relative;
+  color: #353535;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+}
+#remove-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  outline: none;
+  background-color: #2FCC99;
+  border: 0px solid;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  right: 0px;
+}
